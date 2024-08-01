@@ -12,17 +12,19 @@ div {
 }
 
 .item {
-    text-align: center;
-    padding: 10px;
+    padding: 18px;
 }
 
 .summary {
     background-color: white;
+    clear:both;
+    width:18%;
 }
 
 .result {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%));
     border-radius: 10px;
+    text-align: center;
 }
 
 .circle {
@@ -49,4 +51,28 @@ div {
 .small {
     font-size: 8pt;
     color:hsl(241, 100%, 89%);
+}
+
+.yourR {
+    font-size: 10pt;
+}
+
+.great {
+    font-weight:bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.button {
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
 }

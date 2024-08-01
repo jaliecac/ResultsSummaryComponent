@@ -9,10 +9,9 @@
   <title>Frontend Mentor | Results summary component</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
-<body class="container">
 
+<body class="container">
   <div class="item result">
     <div class="lightGrey yourR">Your Result<br></div>
     <div class="circle">
@@ -24,21 +23,18 @@
   </div>
   
   <div class="item summary">
-    Summary
-    <br>
-    <span class="left">Reaction</span>
-    <span class="right">80 / 100</span>
-    <br>
-    <span class="left">Memory</span>
-    <span class="right">92 / 100</span>
-    <br>
-    <span class="left">Verbal</span>
-    <span class="right">61 / 100</span>
-    <br>
-    <span class="left">Visual</span>
-    <span class="right">72 / 100</span>
+    <span class="heading darkBlue">Summary</span>
     <br><br>
-    <div class="button">Continue</div>
+    <div class="redHighlight"><span class="left red"><img src="assets/images/icon-reaction.svg">Reaction</span>
+    <span class="right "><span id="reaction" class="darkBlue">00</span> / 100</span><br></div><div></div>
+    <div class="yellHighlight"><span class="left yellow"><img src="assets/images/icon-memory.svg">Memory</span>
+    <span class="right"><span class="darkBlue">00</span> / 100</span><br></div><div></div>
+    <div class="tealHighlight"><span class="left teal"><img src="assets/images/icon-verbal.svg">Verbal</span>
+    <span class="right"><span class="darkBlue">00</span> / 100</span><br></div><div></div>
+    <div class="cobHighlight"><span class="left cobalt"><img src="assets/images/icon-visual.svg">Visual</span>
+    <span class="right"><span class="darkBlue">00</span> / 100</span><br></div><div></div>
+    <br>
+    <div id="button">Continue</div>
   </div>
   
 </body>

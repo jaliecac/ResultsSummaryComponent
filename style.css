@@ -1,8 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
-div {
-    padding: 10px;
-}
+.result div { padding: 10px;}
+
+.summary div { padding: 5px;}
+
+.yourR { font-size: 10pt;}
+
+.great { font-weight:bold;}
+
+.left { float: left;}
+
+.right { float: right;}
+
+.white { color: white;}
+
+.lightGrey { color:hsl(241, 100%, 89%);}
+
+.red { color: hsl(0, 100%, 67%);}
+
+.yellow { color:hsl(39, 100%, 56%);}
+
+.teal { color: hsl(166, 100%, 37%);}
+
+.cobalt { color: hsl(234, 85%, 45%);}
+
+.darkBlue { color:hsl(224, 30%, 27%);}
+
+.item { padding: 18px;}
 
 .container {
     display: flex;
@@ -11,36 +35,26 @@ div {
     padding:150px;
 }
 
-.item {
-    padding: 18px;
-}
-
 .summary {
     background-color: white;
     clear:both;
     width:18%;
+    box-shadow: 10px 10px 5px hsl(241, 100%, 89%, 0.1);
 }
 
 .result {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%));
     border-radius: 10px;
     text-align: center;
+    box-shadow: 10px 10px 5px hsl(241, 100%, 89%, 0.1);
 }
 
 .circle {
     border-radius: 50%;
     padding: 20px;
     background-image: linear-gradient(hsla(241, 81%, 54%), hsla(256, 72%, 46%, 1));
-    width: 40%;
+    width: 45%;
     margin: auto;
-}
-
-.white {
-    color: white;
-}
-
-.lightGrey {
-    color:hsl(241, 100%, 89%);
 }
 
 .big {
@@ -53,26 +67,49 @@ div {
     color:hsl(241, 100%, 89%);
 }
 
-.yourR {
-    font-size: 10pt;
-}
-
-.great {
-    font-weight:bold;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.button {
+#button {
     text-align: center;
     background-color: hsl(224, 30%, 27%);
     color: white;
     border-radius: 15px;
-    padding: 5px;
+    padding: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+span {
+    color:hsl(241, 100%, 89%);
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+img {
+    width: 10px;
+    padding-right: 5px;
+    height:auto;
+}
+
+.redHighlight {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+}
+
+.yellHighlight {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+
+.tealHighlight {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+}
+
+.cobHighlight {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    border-radius: 10px;
 }
